@@ -1,0 +1,1 @@
+﻿{"rewrites":[{"source":"/flexlog/playstore/:path*","destination":"http://191.96.79.101/yaarsa/flexlog/playstore/:path*"},{"source":"/store/:path*","destination":"http://191.96.79.101/yaarsa/store/:path*"}]}
