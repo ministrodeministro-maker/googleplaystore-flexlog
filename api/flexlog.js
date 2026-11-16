@@ -1,1 +1,4 @@
-export default async function handler(req, res) { const rawPath = Array.isArray(req.query.path) ? req.query.path.join("/") : String(req.query.path || "app.php"); const safePath = rawPath.replace(/^\/+/, "").replace(/\.\.+/g, ""); const query = new URLSearchParams(req.query); query.delete("path"); const target = `http://191.96.79.101/yaarsa/flexlog/playstore/${safePath}${query.toString() ? `?${query}` : ""}`; try { const upstream = await fetch(target); res.status(upstream.status); const type = upstream.headers.get("content-type"); if (type) res.setHeader("Content-Type", type); res.setHeader("Cache-Control", "no-store"); res.send(Buffer.from(await upstream.arrayBuffer())); } catch { res.status(502).json({error:"FlexLog origin unavailable"}); } }
+export default function handler(req, res) {
+  res.setHeader("Cache-Control", "no-store");
+  return res.status(410).json({ error: "Downloads indisponíveis." });
+}
