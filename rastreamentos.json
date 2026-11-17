@@ -1,1 +1,19 @@
-{}
+{
+  "BR35318887": {
+    "origem": "Vila Liviero, São Paulo – SP",
+    "destino": "Em rota de definição",
+    "status": "Emitindo a nota fiscal",
+    "etapas": [
+      {
+        "titulo": "Emitindo a nota fiscal",
+        "descricao": "Pedido em processo de emissão da nota fiscal.",
+        "atual": true
+      },
+      {
+        "titulo": "Nota fiscal emitida",
+        "descricao": "Aguardando emissão da documentação fiscal.",
+        "concluida": false
+      }
+    ]
+  }
+}
