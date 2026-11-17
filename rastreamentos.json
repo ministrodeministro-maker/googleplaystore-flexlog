@@ -1,0 +1,19 @@
+{
+  "BR35318887": {
+    "origem": "Exemplo de origem",
+    "destino": "Exemplo de destino",
+    "status": "Nota fiscal em preparo",
+    "etapas": [
+      {
+        "titulo": "Nota fiscal em preparo",
+        "descricao": "Etapa ilustrativa. Nenhuma nota fiscal real foi consultada.",
+        "atual": true
+      },
+      {
+        "titulo": "Nota fiscal emitida",
+        "descricao": "Etapa futura ilustrativa.",
+        "concluida": false
+      }
+    ]
+  }
+}
