@@ -1,1 +1,16 @@
-{"rewrites":[{"source":"/flexlog/playstore/:path*","destination":"/api/flexlog?path=:path*"},{"source":"/store/:path*","destination":"/api/flexlog?path=store/:path*"}]}
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/flexlog/playstore/:path*",
+      "destination": "/api/flexlog?path=:path*"
+    },
+    {
+      "source": "/store/:path*",
+      "destination": "/api/flexlog?path=store/:path*"
+    }
+  ]
+}
