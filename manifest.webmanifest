@@ -1,7 +1,7 @@
 {
   "name": "FlexLog Transportadora",
   "short_name": "FlexLog",
-  "start_url": "/app.html",
+  "start_url": "/rastreamento.html",
   "scope": "/",
   "display": "standalone",
   "background_color": "#061b33",
