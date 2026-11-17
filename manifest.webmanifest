@@ -1,0 +1,16 @@
+{
+  "name": "FlexLog Transportadora",
+  "short_name": "FlexLog",
+  "start_url": "/app.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#061b33",
+  "theme_color": "#061b33",
+  "icons": [
+    {
+      "src": "/flexlog%20logo/logo.jpg",
+      "sizes": "any",
+      "type": "image/jpeg"
+    }
+  ]
+}
