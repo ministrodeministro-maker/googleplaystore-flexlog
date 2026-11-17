@@ -1,1 +1,34 @@
-{"rewrites":[{"source":"/flexlog/playstore/:path*","destination":"/api/flexlog?path=:path*"},{"source":"/store/:path*","destination":"/api/flexlog?path=store/:path*"}]}
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "^/flexlog/playstore/(.*)$",
+      "dest": "/api/flexlog?path=$1"
+    },
+    {
+      "src": "^/store/(.*)$",
+      "dest": "/api/flexlog?path=store/$1"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}
