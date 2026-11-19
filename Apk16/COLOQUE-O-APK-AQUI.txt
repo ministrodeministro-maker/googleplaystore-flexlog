@@ -1,3 +1,0 @@
-Coloque o arquivo APK nesta pasta.
-
-Pasta: Apk16/
