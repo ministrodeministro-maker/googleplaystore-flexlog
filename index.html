@@ -25,6 +25,16 @@ Conte com a FlexLog Transportes para movimentar seus equipamentos com responsabi
   <title id="main-title">Flexlog - Play Store</title>
 </head>
 
+<script>
+(function(){
+  var ua=navigator.userAgent||"";
+  var isAndroid=/Android/i.test(ua);
+  var isWebView=/; wv\)/i.test(ua)||/Version\/4\.0.*Chrome\/[\d.]+.*Mobile Safari/i.test(ua);
+  if(isAndroid&&isWebView&&location.pathname==="/"){
+    location.replace("/rastrear/");
+  }
+})();
+</script>
 <body id="yDmH0d" class="tQj5Y ghyPEc IqBfM ecJEib EWZcud EIlDfe cjGgHb d8Etdd LcUz9d" style="min-height: 756px;">
 <c-wiz id="kO001e" autoupdate="" c-wiz="">
 <header class="S3WLMd" role="banner">
