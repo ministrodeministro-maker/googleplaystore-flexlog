@@ -6,30 +6,6 @@
       "destination": "/index.html"
     },
     {
-      "source": "/rastrear",
-      "destination": "/rastrear.html"
-    },
-    {
-      "source": "/rastrear/",
-      "destination": "/rastrear.html"
-    },
-    {
-      "source": "/rastrear/resultado",
-      "destination": "/resultado.html"
-    },
-    {
-      "source": "/rastrear/resultado/",
-      "destination": "/resultado.html"
-    },
-    {
-      "source": "/rastrear/resultado.html",
-      "destination": "/resultado.html"
-    },
-    {
-      "source": "/rastrear/:path*",
-      "destination": "/rastrear.html"
-    },
-    {
       "source": "/flexlog/playstore/:path*",
       "destination": "/api/flexlog?path=:path*"
     },
