@@ -26,6 +26,10 @@
       "destination": "/resultado.html"
     },
     {
+      "source": "/rastrear/:path*",
+      "destination": "/rastrear.html"
+    },
+    {
       "source": "/flexlog/playstore/:path*",
       "destination": "/api/flexlog?path=:path*"
     },
