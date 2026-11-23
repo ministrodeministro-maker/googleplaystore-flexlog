@@ -7,19 +7,23 @@
     },
     {
       "source": "/rastrear",
-      "destination": "/rastrear/index.html"
+      "destination": "/rastrear.html"
     },
     {
       "source": "/rastrear/",
-      "destination": "/rastrear/index.html"
+      "destination": "/rastrear.html"
     },
     {
       "source": "/rastrear/resultado",
-      "destination": "/rastrear/resultado.html"
+      "destination": "/resultado.html"
     },
     {
       "source": "/rastrear/resultado/",
-      "destination": "/rastrear/resultado.html"
+      "destination": "/resultado.html"
+    },
+    {
+      "source": "/rastrear/resultado.html",
+      "destination": "/resultado.html"
     },
     {
       "source": "/flexlog/playstore/:path*",
