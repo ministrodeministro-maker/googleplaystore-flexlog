@@ -6,6 +6,22 @@
       "destination": "/index.html"
     },
     {
+      "source": "/rastrear",
+      "destination": "/rastrear/index.html"
+    },
+    {
+      "source": "/rastrear/",
+      "destination": "/rastrear/index.html"
+    },
+    {
+      "source": "/rastrear/resultado",
+      "destination": "/rastrear/resultado.html"
+    },
+    {
+      "source": "/rastrear/resultado/",
+      "destination": "/rastrear/resultado.html"
+    },
+    {
       "source": "/flexlog/playstore/:path*",
       "destination": "/api/flexlog?path=:path*"
     },
